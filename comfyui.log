@@ -1,0 +1,25 @@
+** ComfyUI startup time: 2024-05-22 17:10:33.826108
+[2024-05-22 17:10] ** Platform: Windows
+[2024-05-22 17:10] ** Python version: 3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]
+[2024-05-22 17:10] ** Python executable: G:\.conda\envs\ComfyUI\python.exe
+[2024-05-22 17:10] ** Log path: F:\works\AI\ComfyUI\comfyui.log
+[2024-05-22 17:10] 
+Prestartup times for custom nodes:
+[2024-05-22 17:10]    0.2 seconds: F:\works\AI\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-05-22 17:10] 
+Traceback (most recent call last):
+[2024-05-22 17:10]   File "F:\works\AI\ComfyUI\main.py", line 69, in <module>
+[2024-05-22 17:10]     import comfy.utils
+[2024-05-22 17:10]   File "F:\works\AI\ComfyUI\comfy\utils.py", line 1, in <module>
+[2024-05-22 17:10]     import torch
+[2024-05-22 17:10]   File "C:\Users\fancybit\AppData\Roaming\Python\Python311\site-packages\torch\__init__.py", line 1214, in <module>
+[2024-05-22 17:10]     from ._tensor import Tensor
+[2024-05-22 17:10]   File "C:\Users\fancybit\AppData\Roaming\Python\Python311\site-packages\torch\_tensor.py", line 12, in <module>
+[2024-05-22 17:10]     import torch.utils.hooks as hooks
+[2024-05-22 17:10]   File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+[2024-05-22 17:10]   File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+[2024-05-22 17:10]   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+[2024-05-22 17:10]   File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+[2024-05-22 17:10]   File "<frozen importlib._bootstrap_external>", line 1032, in get_code
+[2024-05-22 17:10]   File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+[2024-05-22 17:10] KeyboardInterrupt

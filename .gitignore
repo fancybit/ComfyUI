@@ -16,4 +16,5 @@ venv/
 !/web/extensions/core/
 /tests-ui/data/object_info.json
 /output
-/output/_output_images_will_be_put_here
+/user/
+

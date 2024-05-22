@@ -1,0 +1,110 @@
+** ComfyUI startup time: 2024-03-18 00:49:03.437644
+[2024-03-18 00:49] ** Platform: Windows
+[2024-03-18 00:49] ** Python version: 3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]
+[2024-03-18 00:49] ** Python executable: G:\.conda\envs\ComfyUI\python.exe
+[2024-03-18 00:49] ** Log path: F:\works\AI\ComfyUI\comfyui.log
+[2024-03-18 00:49] 
+Prestartup times for custom nodes:
+[2024-03-18 00:49]    0.2 seconds: F:\works\AI\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-03-18 00:49] 
+[2024-03-18 00:49] Total VRAM 16383 MB, total RAM 49084 MB
+[2024-03-18 00:49] Set vram state to: NORMAL_VRAM
+[2024-03-18 00:49] Device: cuda:0 NVIDIA GeForce RTX 3070 Laptop GPU : cudaMallocAsync
+[2024-03-18 00:49] VAE dtype: torch.bfloat16
+[2024-03-18 00:49] Using pytorch cross attention
+[2024-03-18 00:49] Adding extra search path checkpoints F:\works\AI\stable-diffusion-webui\models/Stable-diffusion
+[2024-03-18 00:49] Adding extra search path configs F:\works\AI\stable-diffusion-webui\models/Stable-diffusion
+[2024-03-18 00:49] Adding extra search path vae F:\works\AI\stable-diffusion-webui\models/VAE
+[2024-03-18 00:49] Adding extra search path loras F:\works\AI\stable-diffusion-webui\models/Lora
+[2024-03-18 00:49] Adding extra search path loras F:\works\AI\stable-diffusion-webui\models/LyCORIS
+[2024-03-18 00:49] Adding extra search path upscale_models F:\works\AI\stable-diffusion-webui\models/ESRGAN
+[2024-03-18 00:49] Adding extra search path upscale_models F:\works\AI\stable-diffusion-webui\models/RealESRGAN
+[2024-03-18 00:49] Adding extra search path upscale_models F:\works\AI\stable-diffusion-webui\models/SwinIR
+[2024-03-18 00:49] Adding extra search path embeddings F:\works\AI\stable-diffusion-webui\embeddings
+[2024-03-18 00:49] Adding extra search path hypernetworks F:\works\AI\stable-diffusion-webui\models/hypernetworks
+[2024-03-18 00:49] Adding extra search path controlnet F:\works\AI\stable-diffusion-webui\models/ControlNet
+[2024-03-18 00:49] ### Loading: ComfyUI-Manager (V2.7.2)
+[2024-03-18 00:49] 
+
+## [WARN] ComfyUI-Manager: Your ComfyUI version (1682)[2023-11-13] is too old. Please update to the latest version. ##
+
+[2024-03-18 00:49] 
+[2024-03-18 00:49] ### ComfyUI Revision: 1682 [8509bd58] | Released on '2023-11-13'
+[2024-03-18 00:49] (pysssss:WD14Tagger) [ERROR] onnxruntime is required, please check requirements are installed.
+[2024-03-18 00:49] Skip F:\works\AI\ComfyUI\custom_nodes\ComfyUI-WD14-Tagger module for custom nodes due to the lack of NODE_CLASS_MAPPINGS.
+[2024-03-18 00:49] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-03-18 00:49] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-03-18 00:49] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-03-18 00:49] Total VRAM 16383 MB, total RAM 49084 MB
+[2024-03-18 00:49] Set vram state to: NORMAL_VRAM
+[2024-03-18 00:49] Device: cuda:0 NVIDIA GeForce RTX 3070 Laptop GPU : cudaMallocAsync
+[2024-03-18 00:49] VAE dtype: torch.bfloat16
+[2024-03-18 00:49] Traceback (most recent call last):
+  File "F:\works\AI\ComfyUI\nodes.py", line 1735, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "F:\works\AI\ComfyUI\custom_nodes\facerestore_cf\__init__.py", line 6, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'
+[2024-03-18 00:49] 
+[2024-03-18 00:49] Cannot import F:\works\AI\ComfyUI\custom_nodes\facerestore_cf module for custom nodes: No module named 'cv2'
+[2024-03-18 00:49] 
+Import times for custom nodes:
+[2024-03-18 00:49]    0.0 seconds (IMPORT FAILED): F:\works\AI\ComfyUI\custom_nodes\ComfyUI-WD14-Tagger
+[2024-03-18 00:49]    0.0 seconds: F:\works\AI\ComfyUI\custom_nodes\sdxl_prompt_styler
+[2024-03-18 00:49]    0.0 seconds: F:\works\AI\ComfyUI\custom_nodes\ComfyUI-Custom-Scripts
+[2024-03-18 00:49]    0.1 seconds (IMPORT FAILED): F:\works\AI\ComfyUI\custom_nodes\facerestore_cf
+[2024-03-18 00:49]    1.0 seconds: F:\works\AI\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-03-18 00:49]    6.9 seconds: F:\works\AI\ComfyUI\custom_nodes\ComfyUI_Custom_Nodes_AlekPet
+[2024-03-18 00:49] 
+[2024-03-18 00:49] Starting server
+[2024-03-18 00:49] 
+[2024-03-18 00:49] To see the GUI go to: http://127.0.0.1:8188
+[2024-03-18 00:49] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-03-18 00:50] got prompt
+[2024-03-18 00:50] model_type EPS
+[2024-03-18 00:50] adm 0
+[2024-03-18 00:50] Using pytorch attention in VAE
+[2024-03-18 00:50] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+[2024-03-18 00:50] Using pytorch attention in VAE
+[2024-03-18 00:50] missing {'cond_stage_model.clip_l.logit_scale', 'cond_stage_model.clip_l.text_projection'}
+[2024-03-18 00:50] left over keys: dict_keys(['cond_stage_model.clip_l.transformer.text_model.embeddings.position_ids'])
+[2024-03-18 00:50] Requested to load SD1ClipModel
+[2024-03-18 00:50] Loading 1 new model
+[2024-03-18 00:51] Global Step: 274189
+[2024-03-18 00:51] Using pytorch attention in VAE
+[2024-03-18 00:51] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+[2024-03-18 00:51] Using pytorch attention in VAE
+[2024-03-18 00:51] Leftover VAE keys ['loss.logvar', 'loss.perceptual_loss.scaling_layer.shift', 'loss.perceptual_loss.scaling_layer.scale', 'loss.perceptual_loss.net.slice1.0.weight', 'loss.perceptual_loss.net.slice1.0.bias', 'loss.perceptual_loss.net.slice1.2.weight', 'loss.perceptual_loss.net.slice1.2.bias', 'loss.perceptual_loss.net.slice2.5.weight', 'loss.perceptual_loss.net.slice2.5.bias', 'loss.perceptual_loss.net.slice2.7.weight', 'loss.perceptual_loss.net.slice2.7.bias', 'loss.perceptual_loss.net.slice3.10.weight', 'loss.perceptual_loss.net.slice3.10.bias', 'loss.perceptual_loss.net.slice3.12.weight', 'loss.perceptual_loss.net.slice3.12.bias', 'loss.perceptual_loss.net.slice3.14.weight', 'loss.perceptual_loss.net.slice3.14.bias', 'loss.perceptual_loss.net.slice4.17.weight', 'loss.perceptual_loss.net.slice4.17.bias', 'loss.perceptual_loss.net.slice4.19.weight', 'loss.perceptual_loss.net.slice4.19.bias', 'loss.perceptual_loss.net.slice4.21.weight', 'loss.perceptual_loss.net.slice4.21.bias', 'loss.perceptual_loss.net.slice5.24.weight', 'loss.perceptual_loss.net.slice5.24.bias', 'loss.perceptual_loss.net.slice5.26.weight', 'loss.perceptual_loss.net.slice5.26.bias', 'loss.perceptual_loss.net.slice5.28.weight', 'loss.perceptual_loss.net.slice5.28.bias', 'loss.perceptual_loss.lin0.model.1.weight', 'loss.perceptual_loss.lin1.model.1.weight', 'loss.perceptual_loss.lin2.model.1.weight', 'loss.perceptual_loss.lin3.model.1.weight', 'loss.perceptual_loss.lin4.model.1.weight', 'loss.discriminator.main.0.weight', 'loss.discriminator.main.0.bias', 'loss.discriminator.main.2.weight', 'loss.discriminator.main.3.weight', 'loss.discriminator.main.3.bias', 'loss.discriminator.main.3.running_mean', 'loss.discriminator.main.3.running_var', 'loss.discriminator.main.3.num_batches_tracked', 'loss.discriminator.main.5.weight', 'loss.discriminator.main.6.weight', 'loss.discriminator.main.6.bias', 'loss.discriminator.main.6.running_mean', 'loss.discriminator.main.6.running_var', 'loss.discriminator.main.6.num_batches_tracked', 'loss.discriminator.main.8.weight', 'loss.discriminator.main.9.weight', 'loss.discriminator.main.9.bias', 'loss.discriminator.main.9.running_mean', 'loss.discriminator.main.9.running_var', 'loss.discriminator.main.9.num_batches_tracked', 'loss.discriminator.main.11.weight', 'loss.discriminator.main.11.bias']
+F:\works\AI\ComfyUI\comfy\ldm\modules\diffusionmodules\model.py:234: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:263.)
+  out = torch.nn.functional.scaled_dot_product_attention(q, k, v, attn_mask=None, dropout_p=0.0, is_causal=False)
+[2024-03-18 00:51] Requested to load BaseModel
+[2024-03-18 00:51] Loading 1 new model
+[2024-03-18 00:52] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:07<00:00,  1.44it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:07<00:00,  1.49it/s]
+[2024-03-18 00:52] got prompt
+[2024-03-18 00:52] got prompt
+[2024-03-18 00:52] got prompt
+[2024-03-18 00:52] got prompt
+[2024-03-18 00:52] got prompt
+[2024-03-18 00:52] got prompt
+[2024-03-18 00:52] got prompt
+[2024-03-18 00:52] Prompt executed in 90.54 seconds
+[2024-03-18 00:53] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:08<00:00,  1.44it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:08<00:00,  1.46it/s]
+[2024-03-18 00:53] Prompt executed in 81.58 seconds
+[2024-03-18 00:54] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:08<00:00,  1.47it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:08<00:00,  1.47it/s]
+[2024-03-18 00:55] Prompt executed in 80.96 seconds
+[2024-03-18 00:56] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:07<00:00,  1.41it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:07<00:00,  1.47it/s]
+[2024-03-18 00:56] Prompt executed in 81.30 seconds
+[2024-03-18 00:57] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:08<00:00,  1.43it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:08<00:00,  1.45it/s]
+[2024-03-18 00:57] Prompt executed in 81.92 seconds
+[2024-03-18 00:59] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:08<00:00,  1.43it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:08<00:00,  1.45it/s]
+[2024-03-18 00:59] Prompt executed in 81.85 seconds
+[2024-03-18 00:59] 
+[2024-03-18 00:59] Prompt executed in 19.14 seconds
+[2024-03-18 01:00] got prompt
+[2024-03-18 01:01] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:08<00:00,  1.47it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:08<00:00,  1.46it/s]
+[2024-03-18 01:01] Prompt executed in 81.45 seconds
+[2024-03-18 01:02] got prompt
+[2024-03-18 01:03] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:06<00:00,  1.43it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:06<00:00,  1.50it/s]
+[2024-03-18 01:03] Prompt executed in 79.59 seconds

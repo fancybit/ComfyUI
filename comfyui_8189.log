@@ -1,0 +1,95 @@
+[ComfyUI] ** ComfyUI startup time: 2024-05-22 16:34:23.464829
+[2024-05-22 16:34] [ComfyUI] ** Platform: Windows
+[2024-05-22 16:34] [ComfyUI] ** Python version: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+[2024-05-22 16:34] [ComfyUI] ** Python executable: F:\works\AI\stable-diffusion-webui\venv\Scripts\python.exe
+[2024-05-22 16:34] [ComfyUI] ** Log path: F:\works\AI\ComfyUI\comfyui.log
+[2024-05-22 16:34] [ComfyUI] Adding extra search path checkpoints F:\works\AI\stable-diffusion-webui\models/Stable-diffusion
+[2024-05-22 16:34] [ComfyUI] Adding extra search path configs F:\works\AI\stable-diffusion-webui\models/Stable-diffusion
+[2024-05-22 16:34] [ComfyUI] Adding extra search path vae F:\works\AI\stable-diffusion-webui\models/VAE
+[2024-05-22 16:34] [ComfyUI] Adding extra search path loras F:\works\AI\stable-diffusion-webui\models/Lora
+[2024-05-22 16:34] [ComfyUI] Adding extra search path loras F:\works\AI\stable-diffusion-webui\models/LyCORIS
+[2024-05-22 16:34] [ComfyUI] Adding extra search path upscale_models F:\works\AI\stable-diffusion-webui\models/ESRGAN
+[2024-05-22 16:34] [ComfyUI] Adding extra search path upscale_models F:\works\AI\stable-diffusion-webui\models/RealESRGAN
+[2024-05-22 16:34] [ComfyUI] Adding extra search path upscale_models F:\works\AI\stable-diffusion-webui\models/SwinIR
+[2024-05-22 16:34] [ComfyUI] Adding extra search path embeddings F:\works\AI\stable-diffusion-webui\embeddings
+[2024-05-22 16:34] [ComfyUI] Adding extra search path hypernetworks F:\works\AI\stable-diffusion-webui\models/hypernetworks
+[2024-05-22 16:34] [ComfyUI] Adding extra search path controlnet F:\works\AI\stable-diffusion-webui\models/ControlNet
+[2024-05-22 16:34] [ComfyUI] ### Loading: ComfyUI-Manager (V2.7.2)
+[2024-05-22 16:34] [ComfyUI] 
+
+## [WARN] ComfyUI-Manager: Your ComfyUI version (1682)[2023-11-13] is too old. Please update to the latest version. ##
+
+[2024-05-22 16:34] 
+[2024-05-22 16:34] [ComfyUI] ### ComfyUI Revision: 1682 [8509bd58] | Released on '2023-11-13'
+Exception in thread Thread-7 (<lambda>):
+[2024-05-22 16:34] Traceback (most recent call last):
+[2024-05-22 16:34]   File "C:\Program Files\Python310\lib\asyncio\windows_events.py", line 494, in finish_recv
+[2024-05-22 16:34]     return ov.getresult()
+[2024-05-22 16:34] OSError: [WinError 64] 指定的网络名不再可用。
+[2024-05-22 16:34] 
+During handling of the above exception, another exception occurred:
+
+[2024-05-22 16:34] Traceback (most recent call last):
+[2024-05-22 16:34]   File "F:\works\AI\stable-diffusion-webui\venv\lib\site-packages\aiohttp\connector.py", line 1104, in _start_tls_connection
+[2024-05-22 16:34]     tls_transport = await self._loop.start_tls(
+[2024-05-22 16:34]   File "C:\Program Files\Python310\lib\asyncio\base_events.py", line 1253, in start_tls
+[2024-05-22 16:34]     await waiter
+[2024-05-22 16:34]   File "C:\Program Files\Python310\lib\asyncio\proactor_events.py", line 286, in _loop_reading
+[2024-05-22 16:34]     length = fut.result()
+[2024-05-22 16:34]   File "C:\Program Files\Python310\lib\asyncio\windows_events.py", line 826, in _poll
+[2024-05-22 16:34]     value = callback(transferred, key, ov)
+[2024-05-22 16:34]   File "C:\Program Files\Python310\lib\asyncio\windows_events.py", line 498, in finish_recv
+[2024-05-22 16:34]     raise ConnectionResetError(*exc.args)
+[2024-05-22 16:34] ConnectionResetError: [WinError 64] 指定的网络名不再可用。
+[2024-05-22 16:34] 
+The above exception was the direct cause of the following exception:
+
+[2024-05-22 16:34] Traceback (most recent call last):
+[2024-05-22 16:34]   File "C:\Program Files\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+[2024-05-22 16:34]     self.run()
+[2024-05-22 16:34]   File "C:\Program Files\Python310\lib\threading.py", line 953, in run
+[2024-05-22 16:34]     self._target(*self._args, **self._kwargs)
+[2024-05-22 16:34]   File "F:\works\AI\ComfyUI\custom_nodes\ComfyUI-Manager\__init__.py", line 2359, in <lambda>
+[2024-05-22 16:34]     threading.Thread(target=lambda: asyncio.run(default_cache_update())).start()
+[2024-05-22 16:34]   File "C:\Program Files\Python310\lib\asyncio\runners.py", line 44, in run
+[2024-05-22 16:34]     return loop.run_until_complete(main)
+[2024-05-22 16:34]   File "C:\Program Files\Python310\lib\asyncio\base_events.py", line 649, in run_until_complete
+[2024-05-22 16:34]     return future.result()
+[2024-05-22 16:34]   File "F:\works\AI\ComfyUI\custom_nodes\ComfyUI-Manager\__init__.py", line 2356, in default_cache_update
+[2024-05-22 16:34]     await asyncio.gather(a, b, c, d)
+[2024-05-22 16:34]   File "F:\works\AI\ComfyUI\custom_nodes\ComfyUI-Manager\__init__.py", line 2344, in get_cache
+[2024-05-22 16:34]     json_obj = await get_data(uri, True)
+[2024-05-22 16:34]   File "F:\works\AI\ComfyUI\custom_nodes\ComfyUI-Manager\__init__.py", line 547, in get_data
+[2024-05-22 16:34]     async with session.get(uri) as resp:
+[2024-05-22 16:34]   File "F:\works\AI\stable-diffusion-webui\venv\lib\site-packages\aiohttp\client.py", line 1194, in __aenter__
+[2024-05-22 16:34]     self._resp = await self._coro
+[2024-05-22 16:34]   File "F:\works\AI\stable-diffusion-webui\venv\lib\site-packages\aiohttp\client.py", line 578, in _request
+[2024-05-22 16:34]     conn = await self._connector.connect(
+[2024-05-22 16:34]   File "F:\works\AI\stable-diffusion-webui\venv\lib\site-packages\aiohttp\connector.py", line 544, in connect
+[2024-05-22 16:34]     proto = await self._create_connection(req, traces, timeout)
+[2024-05-22 16:34]   File "F:\works\AI\stable-diffusion-webui\venv\lib\site-packages\aiohttp\connector.py", line 909, in _create_connection
+[2024-05-22 16:34]     _, proto = await self._create_proxy_connection(req, traces, timeout)
+[2024-05-22 16:34]   File "F:\works\AI\stable-diffusion-webui\venv\lib\site-packages\aiohttp\connector.py", line 1357, in _create_proxy_connection
+[2024-05-22 16:34]     return await self._start_tls_connection(
+[2024-05-22 16:34]   File "F:\works\AI\stable-diffusion-webui\venv\lib\site-packages\aiohttp\connector.py", line 1124, in _start_tls_connection
+[2024-05-22 16:34]     raise client_error(req.connection_key, exc) from exc
+[2024-05-22 16:34] aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host raw.githubusercontent.com:443 ssl:default [指定的网络名不再可用。]
+[2024-05-22 16:34] [ComfyUI] Total VRAM 16383 MB, total RAM 49084 MB
+[2024-05-22 16:34] [ComfyUI] Set vram state to: NORMAL_VRAM
+[2024-05-22 16:34] [ComfyUI] Device: cuda:0 NVIDIA GeForce RTX 3070 Laptop GPU : native
+[2024-05-22 16:34] [ComfyUI] VAE dtype: torch.bfloat16
+[2024-05-22 16:34] [ComfyUI] 
+Import times for custom nodes:
+[2024-05-22 16:34] [ComfyUI]    0.0 seconds: F:\works\AI\stable-diffusion-webui\extensions\sd-webui-comfyui\comfyui_custom_nodes\webui_save_image.py
+[2024-05-22 16:34] [ComfyUI]    0.0 seconds: F:\works\AI\ComfyUI\custom_nodes\sdxl_prompt_styler
+[2024-05-22 16:34] [ComfyUI]    0.0 seconds: F:\works\AI\stable-diffusion-webui\extensions\sd-webui-comfyui\comfyui_custom_nodes\webui_io.py
+[2024-05-22 16:34] [ComfyUI]    0.0 seconds: F:\works\AI\stable-diffusion-webui\extensions\sd-webui-comfyui\comfyui_custom_nodes\webui_proxy_nodes.py
+[2024-05-22 16:34] [ComfyUI]    0.0 seconds: F:\works\AI\ComfyUI\custom_nodes\ComfyUI-Custom-Scripts
+[2024-05-22 16:34] [ComfyUI]    0.3 seconds: F:\works\AI\ComfyUI\custom_nodes\ComfyUI-WD14-Tagger
+[2024-05-22 16:34] [ComfyUI]    0.5 seconds: F:\works\AI\ComfyUI\custom_nodes\facerestore_cf
+[2024-05-22 16:34] [ComfyUI]    1.1 seconds: F:\works\AI\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-05-22 16:34] [ComfyUI]   25.0 seconds: F:\works\AI\ComfyUI\custom_nodes\ComfyUI_Custom_Nodes_AlekPet
+[2024-05-22 16:34] [ComfyUI]
+[2024-05-22 16:34] [ComfyUI] Starting server
+[2024-05-22 16:34] 
+[2024-05-22 16:34] [ComfyUI] To see the GUI go to: http://127.0.0.1:8189
